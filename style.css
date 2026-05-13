@@ -1,0 +1,265 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+body{
+    background-color: #262832;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+header div{
+    display: flex;
+}
+header a{
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    font-weight: 300;
+    text-decoration: none;
+    padding: 0px 10px;
+}
+header h1{
+    color: white;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+}
+.div1{
+   display: flex;
+   align-items: center;
+}
+header b{
+    width: 30px;
+    height: 30px;
+    border-radius: 3px;
+    background-color: rgb(70, 69, 69);
+    text-align: center;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    padding-top: 2px;
+    margin-right: 10px;
+}
+button{
+    display: flex;
+    align-items: center;
+    width: 160px;
+    height: 35px;
+    border-radius: 30px;
+    border: none;
+    background-color: #323853;
+    color: white;
+    font-size: 12px;
+    font-weight: 200;
+    padding: 0px 10px;
+}
+.section2 aside{
+    width: 330px;
+}
+button img{
+    padding-right: 10px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+.section1{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 100px;
+}
+.section1 img{
+    width: 700px;
+}
+.section1 aside{
+    width: 350px;
+    padding-left: 20px;
+}
+.section1 h1{
+    font-size: 13px;
+    font-weight: 200;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(224, 221, 221);
+    padding-bottom: 5px;
+}
+.section1 p{
+    font-size: 15px;
+    font-weight: 200;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(117, 116, 116);
+    padding-bottom: 20px;
+}
+.section1 b{
+    color: white;
+    font-weight: 300;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding: 100px 0px;
+}
+.section1 .divbb{
+    display: flex;
+}
+.section1 .divbb img{
+    width: 40px;
+    height: 40px;
+}
+.section1 .divbb1{
+    padding-left: 10px;
+}
+.section1 .p11{
+    padding-top: 30px;
+}
+.section2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.section2 img{
+    width: 330px;
+}
+.section2 h1{
+    font-size: 13px;
+    font-weight: 200;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(224, 221, 221);
+    padding-bottom: 5px;
+}
+.section2 p{
+    font-size: 15px;
+    font-weight: 200;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(117, 116, 116);
+    padding-bottom: 20px;
+}
+.section2 b{
+    color: white;
+    font-weight: 300;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding: 100px 0px;
+}
+.section2 .divbb{
+    display: flex;
+}
+.section2 .divbb img{
+    width: 40px;
+    height: 40px;
+}
+.section2 .divbb1{
+    padding-left: 10px;
+}
+.section2 .p11{
+    padding-top: 30px;
+}
+
+.section3{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 70px;
+}
+.section3 img{
+    width: 330px;
+}
+.section3 h1{
+    font-size: 13px;
+    font-weight: 200;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(224, 221, 221);
+    padding-bottom: 5px;
+}
+.section3 p{
+    font-size: 15px;
+    font-weight: 200;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(117, 116, 116);
+    padding-bottom: 20px;
+}
+.section3 b{
+    color: white;
+    font-weight: 300;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding: 100px 0px;
+}
+.section3 .divbb{
+    display: flex;
+}
+.section3 .divbb img{
+    width: 40px;
+    height: 40px;
+}
+.section3 .divbb1{
+    padding-left: 10px;
+}
+.section3 .p11{
+    padding-top: 30px;
+}
+.section3 aside{
+    width: 330px;
+}
+@media(max-width:770px){
+    header{
+        display: flex;
+        justify-content: center;
+        width:100% ;
+    }
+    header a{
+        display: none;
+    }
+    header button{
+        width: 10px;
+        color: #262832;
+        background-color: #262832;
+    }
+    main{
+        width:100%;
+    }
+    .section1{
+        padding: 0px 15px;
+        display: flex;
+        flex-direction: column;
+        width: 92%;
+    }
+    .section1 aside{
+        padding: 0px;
+    }
+    .section1 img{
+        width: 100%;
+    }
+    .section2{
+        padding: 0px 20px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-bottom: 40px
+        ;
+    }
+    .section2 aside{
+        width: 100%;
+    }
+    .section2 img{
+        width: 100%;
+    }
+    .section3{
+        padding: 0px 20px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .section3 aside{
+        width: 100%;
+    }
+    .section3 img{
+        width: 100%;
+    }
+
+
+}
+
+
